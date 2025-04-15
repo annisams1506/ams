@@ -43,7 +43,7 @@ export default function About() {
           <h2 className="text-4xl font-extrabold text-indigo-600 dark:text-indigo-400 mb-4">
             ✨ About Me
           </h2>
-          <div className="space-y-2 font-comic text-gray-800 dark:text-gray-300 text-sm leading-relaxed">
+          <div className="space-y-2 font-poppins text-gray-800 dark:text-gray-300 text-sm leading-relaxed">
             <p>
               Hi! I'm <strong>Annisa Maulana Sabilla</strong> — but feel free to
               call me whatever you like 😄. I'm originally from Bekasi, Indonesia,

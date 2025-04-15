@@ -43,10 +43,10 @@ const projects = [
 
 export default function Project() {
   return (
-    <section className="px-6 py-20 bg-white dark:bg-gray-900 min-h-screen transition-colors duration-500">
+    <section className="px-4 sm:px-6 py-12 sm:py-12 bg-white dark:bg-gray-900 min-h-screen transition-colors duration-500">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
-          className="text-4xl font-bebas text-gray-900 dark:text-white mb-14 tracking-tight"
+          className="text-4xl font-bebas text-gray-900 dark:text-white mb-4  tracking-tight"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

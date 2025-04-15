@@ -4,16 +4,16 @@ import profilePic from "../images/annisa.png";
 
 export default function Hero() {
   return (
-    <section className="px-6 py-24 mt-16 bg-white dark:bg-gray-900">
+    <section className="px-4 sm:px-6 py-16 sm:py-24 mt-4 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         
         {/* Teks */}
-        <div className="text-center md:text-left flex-1">
+        <div className="text-left md:text-left flex-1">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white leading-tight"
+            className="text-2xl md:text-4xl  font-extrabold tracking-tight text-gray-900 dark:text-white leading-tight"
           >
             Hello, I'm{" "}
             <span className="text-indigo-900 dark:text-indigo-400">
@@ -25,7 +25,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.7 }}
-            className="mt-4 text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed"
+            className="mt-4 text-sm md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed"
           >
             A <span className="font-semibold">Marine Information Systems</span> student with a strong passion for{" "}
             <span className="underline decoration-indigo-400/50">front-end development</span> and{" "}

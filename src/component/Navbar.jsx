@@ -40,9 +40,9 @@ export default function Navbar() {
   };
   
   return (
-    <nav className="flex font-bebas text-2xl fixed top-0 w-full z-50 justify-between items-center p-4 bg-white dark:bg-gray-900 shadow-md ">
+    <nav className="flex font-bebas text-lg md:text-2xl fixed top-0 w-full z-50 justify-between items-center p-4 bg-white dark:bg-gray-900 shadow-md ">
       <div
-  className="text-2xl text-gray-900 dark:text-white cursor-pointer"
+  className="md:text-2xl text-lg text-gray-900 dark:text-white cursor-pointer"
   onClick={() => {
     if (location.pathname !== '/') {
       navigate('/');
@@ -67,7 +67,7 @@ export default function Navbar() {
       </ul>
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="text-gray-900 dark:text-white text-2xl ml-4"
+        className="text-gray-900 dark:text-white text-lg md:text-2xl ml-4"
       >
         {darkMode ? '🌙' : '☀️'}
       </button>
