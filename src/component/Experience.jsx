@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "QCO - Intern",
     place: "PT Astra Honda Motor",
-    date: "Maret 2025 – Present",
+    date: "Maret 2025 – Juli 2025",
     description:
       "Maintained and updated QCO Machining data systems using Excel and VBA",
   },
